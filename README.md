@@ -1,6 +1,4 @@
 # **Sale_Data_MeriSkill_Internship_Project**
-![Alt text](https://github.com/yemifatodu/Sale_Data_MeriSkill_internship_project/commit/3868bc9f44d603eb97dc9531c713bf7544c9c3dc#diff-dda461f7e5d48cb3a54dc385aa1caecd7c1ea7854dc0f78318410e7813a3141f)
-
 
 ## **Project Objective**
 
