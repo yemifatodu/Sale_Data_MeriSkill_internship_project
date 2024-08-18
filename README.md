@@ -87,6 +87,16 @@ Utilizing Tableau, I performed visual analysis to detect patterns and trends thr
 
 ### Analysis of the Sales Dashboard Chart (2019)
 
+
+
+
+**Dashboard Visualization:**
+
+![Dashboard Visualization]()
+
+---
+
+
 1. **Sales Trend Over Time (Top Left Chart)**:
    - The chart shows the sales trend over the months of 2019. Sales fluctuate throughout the year, with a noticeable peak towards the end of the year, indicating a strong sales performance during that period.
 
