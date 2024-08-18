@@ -1,4 +1,5 @@
 # **Sale_Data_MeriSkill_Internship_Project**
+[![IMAGE](https://github.com/yemifatodu/Sale_Data_MeriSkill_internship_project/raw/main/photo_2024-08-18_18-00-28.jpg)](https://github.com/yemifatodu/Sale_Data_MeriSkill_internship_project/commit/3868bc9f44d603eb97dc9531c713bf7544c9c3dc)
 
 ## **Project Objective**
 
