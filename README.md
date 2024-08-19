@@ -10,6 +10,20 @@ The main goal of this project is to conduct a comprehensive analysis of sales da
 - **Dataset Origin:** The dataset used for this project was provided by Meri Skill as part of the Meri Skill Internship program. It serves as the foundation for analyzing sales performance in 2019.
 
 - **Data Size:** The dataset contains detailed records of sales transactions for the year 2019, including information on sales amounts, quantities, timestamps, product categories, and geographic locations. This allows for a thorough analysis of sales trends and performance metrics.
+- The CSV file contains 185,950 rows and 11 columns. Here’s a summary of the data:
+
+Column Descriptions:
+Unnamed: 0: Index column, likely automatically generated.
+Order ID: Unique identifier for each order.
+Product: Name of the product sold.
+Quantity Ordered: Number of units ordered. There is one missing value.
+Price Each: Price of each unit of the product.
+Order Date: Date and time when the order was placed, stored as a string.
+Purchase Address: Full address where the product was shipped.
+Unnamed: 7: Appears to be an additional index or label, possibly redundant.
+Sales: Total sales amount for the order (likely Quantity Ordered * Price Each).
+City: City where the product was shipped.
+Hour: Hour of the day when the order was placed.
 
 - **Business Problem:** The core business problem addressed by this project is understanding sales performance in 2019 across various dimensions, such as time (monthly, hourly), product categories, and geographic locations. The goal is to identify high-performing periods, products, and regions, and to uncover any potential areas for improvement. The analysis provides actionable insights to enhance future sales strategies, optimize inventory management, and better align marketing efforts with consumer demand.
 
