@@ -113,13 +113,10 @@ Utilizing Tableau, I performed visual analysis to detect patterns and trends thr
 
 ### **5. SQL Queries**
 
-     Date Extraction: Employed SQL queries to extract date and time components for detailed analysis.
-    Data Aggregation: Used SQL to aggregate sales data by various dimensions, such as month, product category, and region.
-    By applying these methods, I was able to uncover key insights and provide actionable recommendations for improving sales strategies and 
-    optimizing operations.
+- **Date Extraction:** Employed SQL queries to extract date and time components for detailed analysis.
+- **Data Aggregation:** Used SQL to aggregate sales data by month, product category, and region.
+- **Outcome:** These methods uncovered key insights and provided actionable recommendations for improving sales strategies and optimizing operations.
     
----
-
 For more SQL queries related to this project, click [here](https://github.com/yemifatodu/SQL-QUERY_MERI-SKILL-SALES-DATA).
 
 --- 
