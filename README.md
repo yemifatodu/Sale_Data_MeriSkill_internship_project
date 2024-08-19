@@ -62,26 +62,45 @@ I conducted thorough exploratory analysis to understand the dataset, exploring d
 - **Time Component Extraction:** Extracted the time part from `order_date` for hourly analysis.
 
 **SQL Queries Used:**
+  
+   - **Select All Data**:
+     ```sql
+     SELECT * FROM [dbo].[Sale_Data];
+     ```
 
-- **Extract Date Only from `order_date`:**
-  ```sql
-  SELECT
-    order_date,
-    CAST(order_date AS DATE) AS order_date_only
-  FROM
-    sales_data;
-  ```
-  This query extracts the date component from `order_date`, allowing analysis based on the date alone.
+   - **Drop a Column** ( `Unnamed: 0`):
+     ```sql
+     ALTER TABLE [dbo].[Sale_Data]
+     DROP COLUMN [Unnamed: 0];
+     ```
 
-- **Extract Time Only from `order_date`:**
-  ```sql
-  SELECT
-    order_date,
-    CAST(order_date AS TIME) AS order_time_only
-  FROM
-    sales_data;
-  ```
-  This query extracts the time component from `order_date`, enabling analysis based on the time of day.
+   - **Rename a Column** (`Unnamed: 7` to `Month`):
+     ```sql
+     EXEC sp_rename '[dbo].[Sale_Data].[Unnamed: 7]', 'Months', 'COLUMN';
+     ```
+
+   - **Split `Order Date` into `Date_Only` and `Time_Only`**:
+     SQL Server doesn’t directly support splitting strings into multiple columns in a single statement. However, you can do it using `SUBSTRING` and `CHARINDEX`:
+     ```sql
+     ALTER TABLE [dbo].[Sale_Data]
+     ADD [Date_Only] DATE, [Time_Only] TIME;
+
+     UPDATE [dbo].[Sale_Data]
+     SET [Date_Only] = CAST([Order Date] AS DATE),
+         [Time_Only] = CAST([Order Date] AS TIME);
+
+     -- Drop the original Order Date column
+     ALTER TABLE [dbo].[Sale_Data]
+     DROP COLUMN [Order Date];
+     ```
+
+   - **Example: Grouping Sales by Month**:
+     ```sql
+     SELECT Month, SUM(Sales) AS Total_Sales
+     FROM [dbo].[Sale_Data]
+     GROUP BY Month
+     ORDER BY Month;
+     ```
 
 ### **4. Visual Analysis**
 
