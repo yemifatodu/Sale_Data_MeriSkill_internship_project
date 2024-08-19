@@ -117,6 +117,11 @@ Utilizing Tableau, I performed visual analysis to detect patterns and trends thr
     Data Aggregation: Used SQL to aggregate sales data by various dimensions, such as month, product category, and region.
     By applying these methods, I was able to uncover key insights and provide actionable recommendations for improving sales strategies and 
     optimizing operations.
+    
+---
+
+For more SQL queries related to this project, click [here](https://github.com/yemifatodu/SQL-QUERY_MERI-SKILL-SALES-DATA).
+
 --- 
 
 ### Analysis of the Sales Dashboard Chart (2019)
