@@ -3,14 +3,16 @@
 
 ## **Project Objective**
 
-The main goal of this project is to conduct a comprehensive analysis of sales data for the year 2019. The objective is to identify key trends, performance metrics, and insights that can inform strategic decision-making for future sales strategies, marketing efforts, and resource allocation. This project is part of the Meri Skill Internship and is stored in this GitHub repository to showcase the findings and analysis.
+The primary purpose of this project is to perform a sales analysis of the year 2019 based on the collected information. The goal is to determine the main factors, outcomes and factors that would be beneficial for the subsequent sales strategies, marketing activities, and organizational resource management. This is a project under the Meri Skill Internship and the findings reflecting in this project are stored in this GitHub repository.
 
 ## **Project Context**
 
-- **Dataset Origin:** The dataset used for this project was provided by Meri Skill as part of the Meri Skill Internship program. It serves as the foundation for analyzing sales performance in 2019.
+- **Dataset Origin:** The dataset used for this project was provided by Meri Skill as part of the Meri Skill Internship program. Sales performance analysis for 2019 is premised on it.
 
-- **Data Size:** The dataset contains detailed records of sales transactions for the year 2019, including information on sales amounts, quantities, timestamps, product categories, and geographic locations. This allows for a thorough analysis of sales trends and performance metrics.
-- The CSV file contains 185,950 rows and 11 columns. Here’s a summary of the data:
+- **Data Size:** The dataset contains detailed records of sales transactions for the year 2019, including information on sales amounts, quantities, timestamps, product categories, and geographic locations. They make it possible to study the daily sales and performance characteristics.
+It is a dataset with rows of 185,950 and having 11 columns. Here’s a summary of the data:
+
+
 
 Column Descriptions:
 Unnamed: 0: Index column, likely automatically generated.
@@ -25,13 +27,13 @@ Sales: Total sales amount for the order (likely Quantity Ordered * Price Each).
 City: City where the product was shipped.
 Hour: Hour of the day when the order was placed.
 
-- **Business Problem:** The core business problem addressed by this project is understanding sales performance in 2019 across various dimensions, such as time (monthly, hourly), product categories, and geographic locations. The goal is to identify high-performing periods, products, and regions, and to uncover any potential areas for improvement. The analysis provides actionable insights to enhance future sales strategies, optimize inventory management, and better align marketing efforts with consumer demand.
+- **Business Problem:** The core business problem addressed by this project is understanding sales performance in 2019 across various dimensions, such as time (monthly, hourly), product categories, and geographic locations. Its aim is to pinpoint high performers by data-driven time frames, products, and geographic locations and discover opportunities for optimization. This paper affords practical implications to improve future sales goals, stock position, and targeted marketing.
 
 ---
 
 ## **Data Analyst Experience and Project Insights**
 
-As a data analyst for the Meri Skill Internship project, I applied several key skills to analyze the sales dataset for 2019. These skills were instrumental in deriving meaningful insights and recommendations from the data. Here’s how each skill contributed to the findings and insights:
+The Meri Skill Internship project is a virtual internship with an actual firm and as the data analyst, numerous skills were applied to assess the sales dataset of 2019. These skills proved very handy in gaining as much insights and recommendations from the data as possible. Here’s how each skill contributed to the findings and insights:
 
 ### **1. Data Cleaning**
 
@@ -377,31 +379,31 @@ Understanding each product's contribution helps in strategic decision-making reg
 Based on the findings from the 2019 sales data analysis, here are some recommendations:
 
 ### **1. Optimize Seasonal Strategies**
-- **Focus on Peak Periods:** Since December is the highest-performing month, intensify marketing efforts and promotions during this period to maximize revenue. Similarly, plan for high-impact campaigns in October and April, which also showed strong performance.
-- **Address Low-Performing Months:** Develop targeted marketing strategies to boost sales in January, September, and February. Consider offering discounts or special promotions to counteract seasonal declines.
+- **Focus on Peak Periods:** Since December is the highest-performing month, there's need to intensify marketing efforts and promotions during this period to maximize revenue. In the same manner, the stake-holder(s) need to incorporate big campaigns in October and April since these months have good performances also.
+- **Address Low-Performing Months:** There's need to develop targeted marketing strategies to boost sales in January, September, and February. One of the strategies that can be employed are slashing the prices or coming up with other incentives to encourage customers to purchase goods during the off-peak season.
 
 ### **2. Enhance Time-of-Day Marketing**
-- **Leverage Peak Sales Hours:** Given that peak sales hours are between 18:00 and 20:00, allocate more resources and marketing efforts during these times. Optimize online and offline campaigns to capture the increased consumer activity.
-- **Improve Off-Peak Sales:** Develop strategies to increase sales during the early morning hours (2:00 to 4:00). Consider targeted promotions or incentives to drive sales during these less active times.
+- **Leverage Peak Sales Hours:** Given that peak sales hours are between 18:00 and 20:00, allocation of more resources and marketing efforts during these times would be an added advantage. also optimization of  online and offline campaigns can be implore to capture the "increased consumer's" activity.
+- **Improve Off-Peak Sales:** Strategies can be develop to increase sales during the early morning hours (2:00 to 4:00). which could be consideration of targeted promotions or incentives to drive sales during these less active times.
 
 ### **3. Tailor Regional Strategies**
-- **Focus on High-Revenue Cities:** Concentrate marketing and sales efforts in high-revenue cities like San Francisco, Los Angeles, and New York City. These cities are significant revenue generators and should be prioritized in resource allocation and promotional activities.
-- **Address Low-Performing Cities:** Investigate the reasons behind lower sales in cities like Austin and Portland. Develop region-specific strategies to enhance performance in these areas, possibly through localized promotions or increased visibility.
+- **Focus on High-Revenue Cities:** The stake-holder(s) can concentrate marketing and sales efforts in high-revenue cities like San Francisco, Los Angeles, and New York City. These cities are significant revenue generators and should be prioritized in resource allocation and promotional activities.
+- **Address Low-Performing Cities:** also there's need to investigate the reasons behind lower sales in cities like Austin and Portland. Region-specific strategies to enhance performance in these areas can be developed, possibly through localized promotions or increased visibility.
 
 ### **4. Prioritize High-Performing Products**
-- **Product Focus:** Prioritize products with high sales value and contribution, such as the Macbook Pro Laptop, iPhone, and ThinkPad Laptop. Ensure sufficient inventory and consider bundling these items with other products to boost overall sales.
-- **Review Low-Contribution Products:** Evaluate the sales performance of lower-contribution products and consider strategies to either enhance their appeal or reduce their inventory if they are not meeting sales expectations.
+- **Product Focus:** Priorities should be given to products with high sales value and contribution, such as the Macbook Pro Laptop, iPhone, and ThinkPad Laptop. To ensure sufficient inventory and to consider bundling these items with other products to boost overall sales.
+- **Review Low-Contribution Products:** T he need to evaluate the sales performance of lower-contribution products is essential and consideration of strategies to either enhance their appeal to customer(s) or reduce their inventory if they are not meeting sales expectations.
 
 ### **5. Develop Customer Loyalty Programs**
-- **Engage High-Frequency Customers:** Implement loyalty programs or personalized offers for high-frequency customers, such as those with multiple purchases from addresses like San Francisco. This can help retain valuable customers and encourage repeat purchases.
+- **Engage High-Frequency Customers:** The stake-holder(s) should implement loyalty programs or personalized offers for high-frequency customers, such as those with multiple purchases from addresses like San Francisco. This can help retain valuable customers and encourage repeat purchases.
 
 ### **6. Optimize Product Category Strategy**
-- **High-Contribution Categories:** Focus on product categories with high sales contributions, such as laptops and phones. Ensure these categories are well-promoted and consider expanding the range or offering complementary products.
-- **Evaluate Lower-Contribution Categories:** Review the performance of lower-contribution products and assess if adjustments in marketing or inventory are needed to improve their performance.
+- **High-Contribution Categories:** Focus on product categories with high sales contributions, such as laptops and phones should be priotize to ensure these categories are well-promoted and consideration for expanding the range or offering complementary products.
+- **Evaluate Lower-Contribution Categories:** The stake-holder(s) should review the performance of lower-contribution products and assess if adjustments in marketing or inventory are needed to improve their performance.
 
 ### **7. Implement Weekly Sales Strategies**
-- **Boost Sales on High-Performing Days:** Since Tuesday, Wednesday, and Sunday are top-performing days, consider running special promotions or events on these days to leverage higher sales potential.
-- **Address Lower-Performing Days:** Develop strategies to increase sales on lower-performing days like Friday and Thursday, such as offering exclusive deals or promotions.
+- **Boost Sales on High-Performing Days:** Since Tuesday, Wednesday, and Sunday are top-performing days, consideration should be if, to be or not to running special promotions or events on these days to leverage higher sales potential.
+- **Address Lower-Performing Days:** Strategies to increase sales on lower-performing days like Friday and Thursday should be considered, such as offering exclusive deals or promotions.
 
 
 ---
